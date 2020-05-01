@@ -1,28 +1,20 @@
-body {
-  margin: 0;
-}
-
 .content {
-  min-width: 425px;
-  max-width: 426px;
-  padding: 10px;
-  box-sizing: border-box;
-  width: 100%;
-  margin: 0 auto;
-  background-color: antiquewhite;
+  width: 320px;
 }
 
 /*------- CHESSFG --------*/
 
 .chessfg {
   display: grid;
-  grid-template-rows: repeat(8, 1fr);
-  min-height: 405px;
+  grid-template-rows: repeat(8, 20px);
+  grid-template-columns: 160px;
+  height: 320px;
 }
 
 .chessfg__line {
   display: grid;
-  grid-template-columns: repeat(8, 1fr);
+  grid-template-columns: repeat(8, 20px);
+  grid-template-rows: 20px;
 }
 
 .chessfg__cell {
