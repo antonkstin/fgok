@@ -4,12 +4,12 @@ body {
 
 .content {
   min-width: 425px;
-  max-width: 425px;
+  max-width: 426px;
   padding: 10px;
   box-sizing: border-box;
   width: 100%;
   margin: 0 auto;
-  background-color: aqua;
+  background-color: antiquewhite;
 }
 
 /*------- CHESSFG --------*/
