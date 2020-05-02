@@ -1,14 +1,17 @@
 .content {
   background-color: royalblue;
+  padding: 20px;
 }
 
 /*------- CHESSFG --------*/
 
 .chessfg {
+  min-width: 280px;
+  max-width: 450px;
+  margin: 0 auto;
 }
 
 .chessfg__line {
-  min-width: 320px;
   display: flex;
 }
 
@@ -16,6 +19,7 @@
   width: 12.5%;
   padding-top: 12.5%;
   background-color: #321b09;
+  cursor: pointer;
 }
 
 .chessfg__line:nth-of-type(2n-1) .chessfg__cell:nth-of-type(2n) {
@@ -24,4 +28,9 @@
 
 .chessfg__line:nth-of-type(2n) .chessfg__cell:nth-of-type(2n-1) {
   background-color: #62350a;
+}
+
+.chessfg__cell_active {
+  transition: transform 1s;
+  transform: rotateY(180deg);
 }
