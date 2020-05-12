@@ -40,6 +40,6 @@
 .chessfg .chessfg__line .chessfg__cell_active {
   transition: transform .6s linear, background-image 0.01s 0.3s;
   transform: rotateY(180deg);
-  background-image: url(./images/shield.png);
+  background-image: url(./images/bull.png);
   background-size: cover;
 }
